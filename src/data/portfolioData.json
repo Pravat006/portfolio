@@ -1,0 +1,185 @@
+{
+  "personal": {
+    "name": "Pravat Behera",
+    "title": "Frontend Web Developer",
+    "email": "beherapravat301@gmail.com",
+    "phone": "+91 9078661542",
+    "location": "San Francisco, CA",
+    "github": "https://github.com/Pravat006",
+    "linkedin": "https://linkedin.com/in/pravat-behera-1339ba302",
+    "twitter": "twitter.com/beherapravat",
+    "bio": "Experienced frontend developer specializing in building beautiful and highly performant web applications with modern technologies like React, Next.js, and Tailwind CSS.",
+    "seoKeywords": [
+      "frontend developer",
+      "web development",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "JavaScript"
+    ]
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "subtitle": "Building modern web experiences with clean code and thoughtful design.",
+    "cta": "View My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a passionate frontend developer with a focus on creating intuitive and responsive web applications. With over 2 years of personal experience through self-learning from online sources, I've worked on a variety of projects from small websites to large-scale web applications.",
+    "paragraphs": [
+      "I specialize in building modern web applications using React, Next.js, and Tailwind CSS. My approach combines technical expertise with a keen eye for design to create exceptional user experiences.",
+      "Outside of coding, I enjoy hiking, photography, and continually learning new technologies to expand my skill set. I'm always open to new challenges and opportunities to collaborate on interesting projects."
+    ],
+    "keyPoints": [
+      "2+ years of personal experience",
+      "Specializing in React and modern JavaScript",
+      "Skilled in responsive and accessible design",
+      "Experience with full-stack development"
+    ]
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "description": "A comprehensive overview of the technologies and tools I work with.",
+    "categories": [
+      {
+        "name": "Frontend",
+        "description": "Building beautiful user interfaces",
+        "technologies": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vue.js",
+          "HTML5",
+          "CSS3",
+          "JavaScript"
+        ]
+      },
+      {
+        "name": "Backend",
+        "description": "Server-side development & APIs",
+        "technologies": [
+          "Node.js",
+          "Express",
+          "Python",
+          "Django",
+          "PostgreSQL",
+          "MongoDB",
+          "Redis",
+          "GraphQL"
+        ]
+      },
+      {
+        "name": "Tools & DevOps",
+        "description": "Development workflow & deployment",
+        "technologies": [
+          "Git",
+          "Docker",
+          "AWS",
+          "Vercel",
+          "Webpack",
+          "Jest",
+          "Cypress",
+          "Figma"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "description": "A selection of projects that showcase my skills and experience.",
+    "items": [
+      {
+        "title": "E-commerce Platform",
+        "description": "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+        "image": "/public/projects/image.png",
+        "tags": ["React", "Node.js", "MongoDB", "Express", "Razorpay"],
+        "githubUrl": "https://github.com/Pravat006/e-com-react",
+        "liveUrl": "https://gearmart.me"
+      },
+      {
+        "title": "Task Management App",
+        "description": "Collaborative project management tool with real-time updates, team collaboration, and analytics.",
+        "image": "/placeholder.svg?height=200&width=400",
+        "tags": ["Next.js", "TypeScript", "Socket.io", "MongoDB"],
+        "githubUrl": "https://github.com/yourusername/taskmanager",
+        "liveUrl": "https://taskmanager-demo.example.com"
+      },
+      {
+        "title": "Weather Dashboard",
+        "description": "Beautiful weather application with location-based forecasts, interactive maps, and data visualization.",
+        "image": "/placeholder.svg?height=200&width=400",
+        "tags": ["Vue.js", "D3.js", "OpenWeather API", "PWA"],
+        "githubUrl": "https://github.com/yourusername/weather-app",
+        "liveUrl": "https://weather-demo.example.com"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Have a project in mind or want to collaborate? Feel free to reach out through any of the channels below.",
+    "formTitle": "Let's discuss your project",
+    "formDescription": "Complete the form and I'll get back to you within 24 hours.",
+    "helpWith": [
+      "Full-stack web application development",
+      "Frontend development with React/Next.js",
+      "API design and backend development",
+      "Code reviews and technical consulting",
+      "Performance optimization"
+    ],
+    "contactMethods": [
+      {
+        "type": "email",
+        "value": "beherapravat301@gmail.com",
+        "label": "Feel free to email me directly",
+        "color": "indigo"
+      },
+      {
+        "type": "phone",
+        "value": "+91 9078661542",
+        "label": "Available for calls Monday-Friday",
+        "color": "green"
+      },
+      {
+        "type": "location",
+        "value": "Puri , Odisha, India",
+        "label": "Available for remote work worldwide",
+        "color": "orange"
+      }
+    ]
+  },
+  "seo": {
+    "title": "Frontend Web Developer | React, Next.js, Tailwind CSS Expert",
+    "description": "Experienced frontend developer specializing in building beautiful and highly performant web applications with modern technologies like React, Next.js, and Tailwind CSS.",
+    "keywords": [
+      "frontend developer",
+      "web development",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "pages": {
+      "home": {
+        "title": "Home | Pravat Behera - Frontend Developer",
+        "description": "Pravat Behera is a frontend developer specializing in React, Next.js, and modern JavaScript."
+      },
+      "about": {
+        "title": "About Me | Pravat Behera",
+        "description": "Learn more about Pravat Behera's experience, skills, and background as a frontend developer."
+      },
+      "projects": {
+        "title": "Projects | Pravat Behera",
+        "description": "View a selection of web development projects by Pravat Behera, showcasing React, Next.js, and more."
+      },
+      "skills": {
+        "title": "Skills & Technologies | Pravat Behera",
+        "description": "Explore the technologies and tools that Pravat Behera uses for web development projects."
+      },
+      "contact": {
+        "title": "Contact Me",
+        "description": "Get in touch with me for web development projects, collaborations, or questions. I'm available for freelance work and open to new opportunities."
+      }
+    }
+  }
+}
