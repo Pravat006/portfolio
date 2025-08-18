@@ -124,26 +124,6 @@
         ],
         "githubUrl": "https://github.com/Pravat006/react-previewer",
         "liveUrl": "https://react-previewer-eosin.vercel.app/"
-      },
-      {
-        "id": 4,
-        "title": "API Gateway",
-        "description": "Microservices architecture",
-        "tech": "Express, MongoDB",
-        "image": "/placeholder.svg?height=200&width=400",
-        "tags": ["Node.js", "Express", "MongoDB", "Docker"],
-        "githubUrl": "https://github.com/yourusername/api-gateway",
-        "liveUrl": "https://api-demo.example.com"
-      },
-      {
-        "id": 5,
-        "title": "Chat Application",
-        "description": "Real-time messaging platform",
-        "tech": "Socket.io, Redis",
-        "image": "/placeholder.svg?height=200&width=400",
-        "tags": ["Node.js", "Socket.io", "Redis", "React"],
-        "githubUrl": "https://github.com/yourusername/chat-app",
-        "liveUrl": "https://chat-demo.example.com"
       }
     ]
   },
