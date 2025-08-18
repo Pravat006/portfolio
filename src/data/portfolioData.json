@@ -90,28 +90,60 @@
     "description": "A selection of projects that showcase my skills and experience.",
     "items": [
       {
+        "id": 1,
         "title": "E-commerce Platform",
-        "description": "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+        "description": "Full-stack web application",
+        "tech": "React, Node.js",
         "image": "/public/projects/image.png",
         "tags": ["React", "Node.js", "MongoDB", "Express", "Razorpay"],
         "githubUrl": "https://github.com/Pravat006/e-com-react",
         "liveUrl": "https://gearmart.me"
       },
       {
-        "title": "Task Management App",
-        "description": "Collaborative project management tool with real-time updates, team collaboration, and analytics.",
-        "image": "/placeholder.svg?height=200&width=400",
-        "tags": ["Next.js", "TypeScript", "Socket.io", "MongoDB"],
-        "githubUrl": "https://github.com/yourusername/taskmanager",
-        "liveUrl": "https://taskmanager-demo.example.com"
+        "id": 2,
+        "title": "Event Portal",
+        "description": "A full-stack Next.js application designed to streamline the organization and manage college events",
+        "tech": "Next js",
+        "image": "/public/projects/college-event.png",
+        "tags": ["Next.js", "TypeScript", "Redux", "Firebase"],
+        "githubUrl": "https://github.com/Pravat006/college-event-portal",
+        "liveUrl": "https://college-event-portal-eight.vercel.app/"
       },
       {
-        "title": "Weather Dashboard",
-        "description": "Beautiful weather application with location-based forecasts, interactive maps, and data visualization.",
+        "id": 3,
+        "title": "React Previewer",
+        "description": "A simple website to quick preview XML files( JSX / TSX ) with tailwind support.",
+        "tech": "React.js, D3.js",
+        "image": "/public/projects/react-preview.png",
+        "tags": [
+          "React.js",
+          "Babel",
+          "TypeScript",
+          "Tailwind CSS",
+          "Monaco Editor"
+        ],
+        "githubUrl": "https://github.com/Pravat006/react-previewer",
+        "liveUrl": "https://react-previewer-eosin.vercel.app/"
+      },
+      {
+        "id": 4,
+        "title": "API Gateway",
+        "description": "Microservices architecture",
+        "tech": "Express, MongoDB",
         "image": "/placeholder.svg?height=200&width=400",
-        "tags": ["Vue.js", "D3.js", "OpenWeather API", "PWA"],
-        "githubUrl": "https://github.com/yourusername/weather-app",
-        "liveUrl": "https://weather-demo.example.com"
+        "tags": ["Node.js", "Express", "MongoDB", "Docker"],
+        "githubUrl": "https://github.com/yourusername/api-gateway",
+        "liveUrl": "https://api-demo.example.com"
+      },
+      {
+        "id": 5,
+        "title": "Chat Application",
+        "description": "Real-time messaging platform",
+        "tech": "Socket.io, Redis",
+        "image": "/placeholder.svg?height=200&width=400",
+        "tags": ["Node.js", "Socket.io", "Redis", "React"],
+        "githubUrl": "https://github.com/yourusername/chat-app",
+        "liveUrl": "https://chat-demo.example.com"
       }
     ]
   },
@@ -138,13 +170,59 @@
         "type": "phone",
         "value": "+91 9078661542",
         "label": "Available for calls Monday-Friday",
-        "color": "green"
+        "color": "orange"
       },
       {
-        "type": "location",
-        "value": "Puri , Odisha, India",
-        "label": "Available for remote work worldwide",
-        "color": "orange"
+        "type": "whatsapp",
+        "value": "+91 9078661542",
+        "label": "Message me on WhatsApp",
+        "color": "green"
+      }
+    ]
+  },
+  "Hackathon": {
+    "title": "Hackathon Projects",
+    "description": "Innovative projects developed during hackathons.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Village Stay",
+        "location": "Bhubaneswae,Patia,Odisha",
+        "date": "jul-11 to Jul-12 2025",
+        "description": "Attended Infosys Global Hackathon 2025",
+        "icon": "https://imgs.search.brave.com/yZ6rcn4uPDIvmYoLznoSQVDuau9MCxLyQS0YpDEhWaQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvcHJl/dmlld3MvMDIwLzMz/Ni80NTEvbm9uXzJ4/L2luZm9zeXMtbG9n/by1pbmZvc3lzLWlj/b24tZnJlZS1mcmVl/LXZlY3Rvci5qcGc",
+        "githubUrl": "https://github.com/Pravat006/effective-carnival1"
+      }
+    ]
+  },
+  "techStack": {
+    "title": "Technology Stack",
+    "description": "My comprehensive toolkit for building modern applications.",
+    "items": [
+      {
+        "id": 1,
+        "category": "Frontend",
+        "technologies": "React, Vue.js, TypeScript, Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "category": "Backend",
+        "technologies": "Node.js, Python, Express, FastAPI"
+      },
+      {
+        "id": 3,
+        "category": "Database",
+        "technologies": "PostgreSQL, MongoDB, Redis"
+      },
+      {
+        "id": 4,
+        "category": "Cloud",
+        "technologies": "AWS, Google Cloud, Vercel"
+      },
+      {
+        "id": 5,
+        "category": "DevOps",
+        "technologies": "Docker, Kubernetes, GitHub Actions"
       }
     ]
   },
@@ -181,5 +259,83 @@
         "description": "Get in touch with me for web development projects, collaborations, or questions. I'm available for freelance work and open to new opportunities."
       }
     }
-  }
+  },
+  "icons": [
+    {
+      "id": 1,
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "tooltip": "HTML"
+    },
+    {
+      "id": 2,
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "tooltip": "CSS"
+    },
+    {
+      "id": 3,
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "tooltip": "JavaScript"
+    },
+    {
+      "id": 4,
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      "tooltip": "Node.js"
+    },
+    {
+      "id": 5,
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "tooltip": "React.js",
+      "isSpinning": true
+    },
+    {
+      "id": 6,
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      "tooltip": "Express.js"
+    },
+    {
+      "id": 7,
+      "src": "https://skillicons.dev/icons?i=mongodb",
+      "tooltip": "MongoDB"
+    },
+    {
+      "id": 8,
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      "tooltip": "Java"
+    },
+    {
+      "id": 9,
+      "src": "https://camo.githubusercontent.com/a739cc726be1242578d99c1507c43b7323fe4b74e2f04e3cf7b16fbe66b1893d/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f7461696c77696e646373732f7461696c77696e646373732d6f726967696e616c2d776f72646d61726b2e737667",
+      "tooltip": "Tailwind CSS"
+    },
+    {
+      "id": 10,
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "tooltip": "TypeScript"
+    },
+    {
+      "id": 11,
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "tooltip": "Git"
+    },
+    {
+      "id": 12,
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "tooltip": "GitHub"
+    },
+    {
+      "id": 13,
+      "src": "https://skillicons.dev/icons?i=py",
+      "tooltip": "Python"
+    },
+    {
+      "id": 14,
+      "src": "https://cdn.worldvectorlogo.com/logos/prisma-2.svg",
+      "tooltip": "Prisma"
+    },
+    {
+      "id": 15,
+      "src": "https://cdn.simpleicons.org/postman/FF6C37",
+      "tooltip": "Postman"
+    }
+  ]
 }

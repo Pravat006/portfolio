@@ -13,7 +13,7 @@ function Contacts() {
     const { personal } = portfolioData;
 
     return (
-        <section id="contact" className="py-20 bg-gradient-to-br from-[#f8fafc] via-[#eef2ff] to-[#f8fafc] dark:from-[#0b1020] dark:via-[#0f172a] dark:to-[#0b1020] transition-colors duration-300">
+        <section id="contact" className="py-20 transition-colors duration-300">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">{contact.title}</h2>

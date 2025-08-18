@@ -1,17 +1,12 @@
 {
-  "name": "Frontend Web Developer Portfolio",
-  "short_name": "Dev Portfolio",
+  "name": "Pravat's Portfolio",
+  "short_name": "Pravat's Portfolio",
   "description": "Professional portfolio of a frontend web developer specializing in React, Next.js, and Tailwind CSS",
   "icons": [
     {
-      "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ],
   "theme_color": "#ffffff",

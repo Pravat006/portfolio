@@ -30,7 +30,7 @@ function App() {
               "@type": "Person",
               "name": "Your Name",
               "url": "https://yourwebsite.com",
-              "jobTitle": "Frontend Web Developer",
+            
               "worksFor": {
                 "@type": "Organization",
                 "name": "Self-Employed"

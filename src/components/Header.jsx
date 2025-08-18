@@ -7,14 +7,12 @@ const Header = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
     const [isHovering, setIsHovering] = useState(null);
     const [activeSection, setActiveSection] = useState('home');
-    const [setHasStoredTheme] = useState(false);
 
     // Initialize theme and optionally sync with system
     useEffect(() => {
         try {
             const stored = localStorage.getItem('theme');
             const hasStored = !!stored;
-            setHasStoredTheme(hasStored);
 
             const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
             const initialDark = hasStored ? stored === 'dark' : prefersDark;
@@ -137,7 +135,6 @@ const Header = () => {
         document.documentElement.classList.toggle('dark', next);
         try {
             localStorage.setItem('theme', next ? 'dark' : 'light');
-            setHasStoredTheme(true);
         } catch {
             // no-op
         }
@@ -242,7 +239,7 @@ const Header = () => {
 
                 {/* Mobile Navigation */}
                 {isMenuOpen && (
-                    <div className="md:hidden py-4 bg-gradient-to-br from-[#f8fafc] via-[#eef2ff] to-[#f8fafc] dark:from-[#0b1020] dark:via-[#0f172a] dark:to-[#0b1020] border-t border-gray-100 dark:border-white/10 transition-colors duration-300">
+                    <div className="md:hidden py-4 border-t border-gray-100 dark:border-white/10 transition-colors duration-300">{/* Use global bg */}
                         <div className="flex flex-col space-y-4">
                             {navItems.map((item, index) => (
                                 <a

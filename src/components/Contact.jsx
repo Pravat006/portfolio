@@ -3,12 +3,13 @@ import useSEO from '../hooks/useSEO.jsx';
 import { Button } from './ui/button.jsx';
 import { Card } from './ui/card.jsx';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaDiscord, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
 import portfolioData from '@/data/portfolioData.json';
 
 function Contact() {
-    const { contact, seo } = portfolioData;
-    const { personal } = portfolioData;
+    const { contact, personal, seo } = portfolioData;
 
     // SEO configuration for Contact page
     const contactSchema = {
@@ -56,18 +57,20 @@ function Contact() {
     };
 
     return (
-        <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#f8fafc] via-[#eef2ff] to-[#f8fafc] dark:from-[#0b1020] dark:via-[#0f172a] dark:to-[#0b1020] transition-colors duration-300">
-            <div className="max-w-6xl mx-auto">
-                <div className="text-center mb-16">
-                    <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">{contact.title}</h1>
+        <section id="contact" className="py-20 relative overflow-hidden">
+            <div className="pointer-events-none absolute -top-1/4 -right-24 h-[500px] w-96 rounded-full bg-indigo-400/20 dark:bg-indigo-600/20 blur-3xl" />
+            <div className="pointer-events-none absolute -bottom-1/4 -left-24 h-[500px] w-96 rounded-full bg-purple-400/20 dark:bg-purple-600/20 blur-3xl" />
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="text-center mb-12">
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">{contact.title}</h2>
                     <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                         {contact.description}
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8 mb-12 md:mb-16">
+                <div className="grid grid-cols- sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8 mb-12 md:mb-16">
                     {contact.contactMethods.map((method, index) => {
-                        // Determine which icon to use based on the method type
+
                         let Icon = MdEmail;
                         if (method.type === 'phone') Icon = MdPhone;
                         if (method.type === 'location') Icon = MdLocationOn;
@@ -139,13 +142,13 @@ function Contact() {
                                     <FaLinkedin className="h-5 w-5" />
                                 </a>
                                 <a
-                                    href={`https://${personal.twitter}`}
+                                    href={`https://discord.com/users/pravat007`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="p-3 bg-indigo-700 rounded-full hover:bg-indigo-800 transition-colors dark:bg-white/10 dark:hover:bg-white/15"
                                     aria-label="Twitter Profile"
                                 >
-                                    <FaTwitter className="h-5 w-5" />
+                                    <FaDiscord className="h-5 w-5" />
                                 </a>
                             </div>
                         </div>
@@ -157,7 +160,7 @@ function Contact() {
                                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                                     Name
                                 </label>
-                                <input
+                                <Input
                                     type="text"
                                     id="name"
                                     name="name"
@@ -171,7 +174,7 @@ function Contact() {
                                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                                     Email
                                 </label>
-                                <input
+                                <Input
                                     type="email"
                                     id="email"
                                     name="email"
@@ -185,7 +188,7 @@ function Contact() {
                                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                                     Subject
                                 </label>
-                                <input
+                                <Input
                                     type="text"
                                     id="subject"
                                     name="subject"
@@ -199,14 +202,14 @@ function Contact() {
                                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                                     Message
                                 </label>
-                                <textarea
+                                <Textarea
                                     id="message"
                                     name="message"
                                     rows="4"
                                     required
                                     className="w-full px-4 py-2 border border-gray-300 dark:border-white/10 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-transparent dark:text-white"
                                     placeholder="Describe your project or inquiry..."
-                                ></textarea>
+                                ></Textarea>
                             </div>
 
                             <Button type="submit" className="w-full">
