@@ -1,12 +1,13 @@
-import React from 'react';
+// import React from 'react';
 import useSEO from '../hooks/useSEO.jsx';
-import { Button } from './ui/button.jsx';
+// import { Button } from './ui/button.jsx';
 import { Card } from './ui/card.jsx';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 import { FaDiscord, FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
-import { Input } from "./ui/input";
-import { Textarea } from "./ui/textarea";
+// import { Input } from "./ui/input";
+// import { Textarea } from "./ui/textarea";
 import portfolioData from '@/data/portfolioData.json';
+import Email from './Email.jsx';
 
 function Contact() {
     const { contact, personal, seo } = portfolioData;
@@ -33,12 +34,6 @@ function Contact() {
         canonicalUrl: "https://yourwebsite.com/contact",
         schemaData: contactSchema
     });
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Handle form submission logic here
-        console.log('Form submitted');
-    };
 
     // Safe color map with explicit light/dark classes (avoids dynamic dark: prefix)
     const colorMap = {
@@ -154,69 +149,7 @@ function Contact() {
                         </div>
                     </div>
 
-                    <div className="md:w-1/2 p-6 md:p-8 bg-white dark:bg-white/5 dark:border-l dark:border-white/10">
-                        <form onSubmit={handleSubmit} className="space-y-6">
-                            <div>
-                                <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                                    Name
-                                </label>
-                                <Input
-                                    type="text"
-                                    id="name"
-                                    name="name"
-                                    required
-                                    className="w-full px-4 py-2 border border-gray-300 dark:border-white/10 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-transparent dark:text-white"
-                                    placeholder="Your name"
-                                />
-                            </div>
-
-                            <div>
-                                <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                                    Email
-                                </label>
-                                <Input
-                                    type="email"
-                                    id="email"
-                                    name="email"
-                                    required
-                                    className="w-full px-4 py-2 border border-gray-300 dark:border-white/10 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-transparent dark:text-white"
-                                    placeholder="your.email@example.com"
-                                />
-                            </div>
-
-                            <div>
-                                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                                    Subject
-                                </label>
-                                <Input
-                                    type="text"
-                                    id="subject"
-                                    name="subject"
-                                    required
-                                    className="w-full px-4 py-2 border border-gray-300 dark:border-white/10 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-transparent dark:text-white"
-                                    placeholder="Project inquiry / Collaboration / Other"
-                                />
-                            </div>
-
-                            <div>
-                                <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                                    Message
-                                </label>
-                                <Textarea
-                                    id="message"
-                                    name="message"
-                                    rows="4"
-                                    required
-                                    className="w-full px-4 py-2 border border-gray-300 dark:border-white/10 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-transparent dark:text-white"
-                                    placeholder="Describe your project or inquiry..."
-                                ></Textarea>
-                            </div>
-
-                            <Button type="submit" className="w-full">
-                                Send Message
-                            </Button>
-                        </form>
-                    </div>
+                    <Email />
                 </div>
             </div>
 

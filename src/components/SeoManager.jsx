@@ -1,10 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-/**
- * SeoManager component to handle site-wide SEO settings
- * This is particularly useful for managing base SEO settings across all pages
- */
+
 const SeoManager = () => {
     return (
         <Helmet>
@@ -37,7 +34,7 @@ const SeoManager = () => {
 
             {/* Twitter base settings */}
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:creator" content="@yourusername" />
+            <meta name="twitter:creator" content="@Pravat Behera" />
         </Helmet>
     );
 };

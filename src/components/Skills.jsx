@@ -49,30 +49,31 @@ export default function PortfolioPage() {
                     </TabsContent>
 
                     <TabsContent value="Hackathon" className="mt-0">
-                        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                             {portfolioData.Hackathon.items.map((hack) => (
                                 <Card
                                     key={hack.id}
-                                    className="relative p-6 bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-sm border-white/20 hover:from-white/20 hover:to-white/10 transition-all duration-300 flex flex-col items-center bg-indigo-100 "
+                                    className="relative p-4 sm:p-6 bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-sm border-white/20 hover:from-white/20 hover:to-white/10 transition-all duration-300 flex flex-col items-center bg-indigo-100 min-h-[220px] min-w-[140px] w-full"
                                 >
 
-                                    <div className="mb-4 flex justify-center items-center">
+                                    {/* Hosted Company Icon */}
+                                    <div className="mb-3 sm:mb-4 flex justify-center items-center w-full">
                                         <img
                                             src={hack.icon}
                                             alt="Company Icon"
-                                            className="h-16 w-16 rounded-full object-cover border border-gray-200 dark:border-white/10 bg-white dark:bg-gray-800"
+                                            className="h-14 w-14 sm:h-16 sm:w-16 rounded-full object-cover border border-gray-200 dark:border-white/10 bg-white dark:bg-gray-800"
                                         />
                                     </div>
-                                    <h3 className="text-lg font-semibold text-purple-700 dark:text-white leading-tight mb-1 text-center">{hack.title}</h3>
-                                    <div className="flex justify-evenly items-center w-full">
-                                        <p className="text-xs text-gray-500 dark:text-gray-400 mb-1 text-center">
-                                            {hack.location}</p>
-
-                                        <p className="text-xs text-gray-500 dark:text-gray-400 mb-1 text-center"> {hack.date}</p>
+                                    {/* Title & Description */}
+                                    <h3 className="text-base sm:text-lg font-semibold text-purple-700 dark:text-white leading-tight mb-1 text-center">{hack.title}</h3>
+                                    <div className="flex justify-center items-center w-full gap-2 mb-1">
+                                        <p className="text-xs text-gray-500 dark:text-gray-400 text-center">{hack.location}</p>
+                                        <span className="text-xs text-gray-400">|</span>
+                                        <p className="text-xs text-gray-500 dark:text-gray-400 text-center">{hack.date}</p>
                                     </div>
-                                    <p className="text-gray-700 dark:text-gray-300 text-sm mb-2 text-center">{hack.description}</p>
-
-                                    <div className="mt-auto pt-2 flex justify-center">
+                                    <p className="text-gray-700 dark:text-gray-300 text-xs sm:text-sm mb-2 text-center">{hack.description}</p>
+                                    {/* Github Link */}
+                                    <div className="mt-auto pt-2 flex justify-center w-full">
                                         <a
                                             href={hack.githubUrl}
                                             target="_blank"

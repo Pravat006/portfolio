@@ -1,16 +1,18 @@
 {
   "personal": {
     "name": "Pravat Behera",
-    "title": "Frontend Web Developer",
+    "title": "Fullstack Web Developer",
     "email": "beherapravat301@gmail.com",
     "phone": "+91 9078661542",
-    "location": "San Francisco, CA",
+    "location": "Puri, Odisha, India",
     "github": "https://github.com/Pravat006",
     "linkedin": "https://linkedin.com/in/pravat-behera-1339ba302",
-    "twitter": "twitter.com/beherapravat",
+    "twitter": "https://twitter.com/pravta07",
     "bio": "Experienced frontend developer specializing in building beautiful and highly performant web applications with modern technologies like React, Next.js, and Tailwind CSS.",
     "seoKeywords": [
       "frontend developer",
+      "backed developer",
+      "full stack developer",
       "web development",
       "React",
       "Next.js",
@@ -25,7 +27,7 @@
   },
   "about": {
     "title": "About Me",
-    "description": "I'm a passionate frontend developer with a focus on creating intuitive and responsive web applications. With over 2 years of personal experience through self-learning from online sources, I've worked on a variety of projects from small websites to large-scale web applications.",
+    "description": "I'm a passionate fullstack web developer with a focus on creating intuitive and responsive web applications. With over 2 years of personal experience through self-learning from online sources, I've worked on a variety of projects from small websites to large-scale web applications.",
     "paragraphs": [
       "I specialize in building modern web applications using React, Next.js, and Tailwind CSS. My approach combines technical expertise with a keen eye for design to create exceptional user experiences.",
       "Outside of coding, I enjoy hiking, photography, and continually learning new technologies to expand my skill set. I'm always open to new challenges and opportunities to collaborate on interesting projects."
@@ -61,12 +63,11 @@
         "technologies": [
           "Node.js",
           "Express",
-          "Python",
-          "Django",
           "PostgreSQL",
           "MongoDB",
           "Redis",
-          "GraphQL"
+          "Prisma",
+          "mongoose"
         ]
       },
       {
@@ -79,7 +80,6 @@
           "Vercel",
           "Webpack",
           "Jest",
-          "Cypress",
           "Figma"
         ]
       }
@@ -124,6 +124,42 @@
         ],
         "githubUrl": "https://github.com/Pravat006/react-previewer",
         "liveUrl": "https://react-previewer-eosin.vercel.app/"
+      },
+      {
+        "id": 4,
+        "title": "Blog Post",
+        "description": "A simple blog post showcasing my writing skills and learning journey.",
+        "tech": "React.js, Markdown, Tailwind CSS, Redux, Cloudinary, Express, Node.js, MMongoDB",
+        "image": "/public/projects/blog-post.png",
+        "tags": [
+          "React.js",
+          "Markdown",
+          "Tailwind CSS",
+          "Redux",
+          "Cloudinary",
+          "Express",
+          "Node.js",
+          "MongoDB"
+        ],
+        "githubUrl": "https://github.com/Pravat006/blogpost-client",
+        "liveUrl": "#"
+      },
+      {
+        "id": 5,
+        "title": "Youtube Backend",
+        "description": "A simple backend service for a YouTube clone.",
+        "tech": "Node.js, Express, MongoDB",
+        "image": "https://via.placeholder.com/300",
+        "tags": [
+          "Node.js",
+          "Express",
+          "Cloudinary",
+          "Express",
+          "Node.js",
+          "MongoDB"
+        ],
+        "githubUrl": "https://github.com/Pravat006/yt-backend",
+        "liveUrl": "#"
       }
     ]
   },

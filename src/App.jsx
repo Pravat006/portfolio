@@ -15,41 +15,41 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 function App() {
   return (
     <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-[#f8fafc] via-[#eef2ff] to-[#f8fafc] dark:from-[#0b1020] dark:via-[#0f172a] dark:to-[#0b1020] transition-colors duration-300">
-      {/* Base SEO settings */}
+
       <SeoManager />
 
-      {/* Page-specific SEO */}
+
       <Helmet>
-        <title>Frontend Web Developer | React, Next.js, Tailwind CSS Expert</title>
-        <meta name="description" content="Experienced frontend developer specializing in building beautiful and highly performant web applications with modern technologies like React, Next.js, and Tailwind CSS." />
-        <meta name="keywords" content="frontend developer, web development, React, Next.js, Tailwind CSS, JavaScript" />
+        <title>Fullstack Web Developer | React, Next.js, Tailwind CSS </title>
+        <meta name="description" content="Experienced fullstack developer specializing in building beautiful and highly performant web applications with modern technologies like React, Next.js, and Tailwind CSS." />
+        <meta name="keywords" content="fullstack developer, web development, React, Next.js, Tailwind CSS, JavaScript ,Typescript, Prisma, PostgreSQL" />
+        <meta name="author" content="Pravat Behera" />
         <script type="application/ld+json">
+
           {`
             {
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "Your Name",
-              "url": "https://yourwebsite.com",
+              "name": "Pravat Behera",
+              "url": "https://pravat.tech/",
             
               "worksFor": {
-                "@type": "Organization",
+                "@type": "Student",
                 "name": "Self-Employed"
               },
               "sameAs": [
-                "https://github.com/yourusername",
-                "https://linkedin.com/in/yourprofile"
+                "https://github.com/Pravat006",
+                "https://linkedin.com/in/pravat-behera-1339ba302"
               ],
-              "knowsAbout": ["React", "JavaScript", "Next.js", "Tailwind CSS", "Web Development"]
+              "knowsAbout": ["React", "JavaScript", "Next.js", "Tailwind CSS", "Web Development","Express", "PostgreSQL","MongoDB"]
             }
           `}
         </script>
       </Helmet>
 
-      {/* Header navigation */}
       <Header />
 
-      {/* Main content with all sections */}
-      <main className="pt-16"> {/* Add padding-top to account for fixed header */}
+      <main className="pt-16">
         <section id="home">
           <Hero />
         </section>
