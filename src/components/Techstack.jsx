@@ -11,11 +11,12 @@ function Techstack() {
                 {icons.map((icon) => (
                     <Card
                         key={icon.id}
-                        className="p-4 bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/15 transition-all duration-300 group shadow-xl"
+                        className="p-4 bg-white/10  border-white/20 hover:bg-white/15 transition-all duration-300 group shadow-xl"
                     >
                         <CardContent className="p-0 flex flex-col items-center justify-center">
                             <div className="h-10 sm:h-16 w-16 mb-3 relative flex items-center justify-center">
                                 <img
+                                    loading='lazy'
                                     src={icon.src}
                                     alt={icon.tooltip}
                                     className={`h-12 w-12 object-contain transition-all duration-300 group-hover:scale-110 ${icon.isSpinning ? 'animate-spin-slow' : ''}`}
