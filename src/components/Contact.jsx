@@ -65,11 +65,10 @@ function Contact() {
 
                 <div className="grid grid-cols- sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8 mb-12 md:mb-16">
                     {contact.contactMethods.map((method, index) => {
-
                         let Icon = MdEmail;
                         if (method.type === 'phone') Icon = MdPhone;
                         if (method.type === 'location') Icon = MdLocationOn;
-
+                        if (method.type === 'whatsapp') Icon = FaWhatsapp;
                         const colors = colorMap[method.color] || colorMap.indigo;
 
                         return (
@@ -97,6 +96,15 @@ function Contact() {
                                     >
                                         {method.value}
                                     </a>
+                                ) : method.type === 'whatsapp' ? (
+                                    <a
+                                        href={`https://wa.me/${method.value.replace(/\D/g, '')}?text=${encodeURIComponent('Hello! I found your portfolio and would like to connect.')}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-green-600 dark:text-green-400 hover:underline"
+                                    >
+                                        {method.value}
+                                    </a>
                                 ) : (
                                     <p className="text-indigo-600 dark:text-indigo-300">
                                         {method.value}
@@ -107,7 +115,6 @@ function Contact() {
                     })}
                 </div>
 
-                {/* Contact Form */}
                 <div className="md:flex rounded-xl shadow-md overflow-hidden border border-gray-100 dark:border-white/10">
                     <div className="md:w-1/2 p-6 md:p-8 bg-indigo-600 text-white dark:bg-gradient-to-b dark:from-indigo-900/30 dark:to-purple-900/20 dark:text-gray-100">
                         <h2 className="text-2xl md:text-3xl font-bold mb-6">{contact.formTitle}</h2>
