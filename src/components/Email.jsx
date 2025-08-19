@@ -16,7 +16,6 @@ function Email() {
         setErrorMsg('');
         setSuccessMsg('');
         try {
-            // Create a form element to send with emailjs.sendForm
             const form = document.createElement('form');
             Object.entries(data).forEach(([key, value]) => {
                 const input = document.createElement('input');

@@ -16,7 +16,7 @@ const useSEO = ({
     title,
     description,
     keywords = [],
-    ogImage = 'https://yourwebsite.com/og-image.jpg',
+    ogImage = 'https://pravat.tech/',
     canonicalUrl,
     schemaData
 }) => {
