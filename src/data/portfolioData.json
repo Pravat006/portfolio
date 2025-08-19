@@ -286,78 +286,78 @@
   "icons": [
     {
       "id": 1,
-      "src": "/public/logo/html5-original.svg",
+      "src": "/logo/html5-original.svg",
       "tooltip": "HTML"
     },
     {
       "id": 2,
-      "src": "/public/logo/css.svg",
+      "src": "/logo/css.svg",
       "tooltip": "CSS"
     },
     {
       "id": 3,
-      "src": "/public/logo/js.svg",
+      "src": "/logo/js.svg",
       "tooltip": "JavaScript"
     },
     {
       "id": 4,
-      "src": "/public/logo/nodejs-original.svg",
+      "src": "/logo/nodejs-original.svg",
       "tooltip": "Node.js"
     },
     {
       "id": 5,
-      "src": "/public/logo/react-original.svg",
+      "src": "/logo/react-original.svg",
       "tooltip": "React.js",
       "isSpinning": true
     },
     {
       "id": 6,
-      "src": "/public/logo/express-original.svg",
+      "src": "/logo/express-original.svg",
       "tooltip": "Express.js"
     },
     {
       "id": 7,
-      "src": "/public/logo/mongodb.svg",
+      "src": "/logo/mongodb.svg",
       "tooltip": "MongoDB"
     },
     {
       "id": 8,
-      "src": "/public/logo/java-original.svg",
+      "src": "/logo/java-original.svg",
       "tooltip": "Java"
     },
     {
       "id": 9,
-      "src": "/public/logo/tailwind.svg",
+      "src": "/logo/tailwind.svg",
       "tooltip": "Tailwind CSS"
     },
     {
       "id": 10,
-      "src": "/public/logo/typescript-original.svg",
+      "src": "/logo/typescript-original.svg",
       "tooltip": "TypeScript"
     },
     {
       "id": 11,
-      "src": "/public/logo/git-original.svg",
+      "src": "/logo/git-original.svg",
       "tooltip": "Git"
     },
     {
       "id": 12,
-      "src": "/public/logo/github-original.svg",
+      "src": "/logo/github-original.svg",
       "tooltip": "GitHub"
     },
     {
       "id": 13,
-      "src": "/public/logo/python.svg",
+      "src": "/logo/python.svg",
       "tooltip": "Python"
     },
     {
       "id": 14,
-      "src": "/public/logo/prisma-2.svg",
+      "src": "/logo/prisma-2.svg",
       "tooltip": "Prisma"
     },
     {
       "id": 15,
-      "src": "/public/logo/postman.svg",
+      "src": "/logo/postman.svg",
       "tooltip": "Postman"
     }
   ]
