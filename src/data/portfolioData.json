@@ -101,7 +101,12 @@
           "Node.js",
           "MongoDB",
           "Express",
-          "Razorpay"
+          "Razorpay",
+          "JWT",
+          "Redux",
+          "Axios",
+          "Cloudinary",
+          "Mongoose"
         ],
         "githubUrl": "https://github.com/Pravat006/e-com-react",
         "liveUrl": "https://gearmart.me"
@@ -112,7 +117,15 @@
         "description": "A full-stack Next.js application designed to streamline the organization and manage college events",
         "tech": "Next js",
         "image": "/public/projects/college-event.png",
-        "tags": ["Next.js", "TypeScript", "Redux", "postgreSQL", "Prisma"],
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Redux",
+          "postgreSQL",
+          "Prisma",
+          "Clerk",
+          "Resend"
+        ],
         "githubUrl": "https://github.com/Pravat006/college-event-portal",
         "liveUrl": "https://college-event-portal-eight.vercel.app/"
       },
@@ -121,7 +134,7 @@
         "title": "React Previewer",
         "description": "A simple website to quick preview XML files( JSX / TSX ) with tailwind support.",
         "tech": "React.js",
-        "image": "/public/projects/react-preview.png",
+        "image": "/projects/react-preview.png",
         "tags": [
           "React.js",
           "Babel",
@@ -136,8 +149,8 @@
         "id": 4,
         "title": "Blog Post",
         "description": "A simple blog post showcasing my writing skills and learning journey.",
-        "tech": "React.js, Markdown, Tailwind CSS, Redux, Cloudinary, Express, Node.js, MMongoDB",
-        "image": "/public/projects/blog-post.png",
+        "tech": "React.js, Markdown, Tailwind CSS, Redux, Cloudinary, Express, Node.js, MongoDB",
+        "image": "/projects/blog-post.png",
         "tags": [
           "React.js",
           "Markdown",
