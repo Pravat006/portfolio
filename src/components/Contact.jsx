@@ -129,7 +129,7 @@ function Contact() {
                                     href={`https://github.com/${personal.github.split('/').pop()}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="p-3 bg-indigo-700 rounded-full hover:bg-indigo-800 transition-colors dark:bg-white/10 dark:hover:bg-white/15"
+                                    className="p-3 bg-indigo-700 rounded-full hover:bg-indigo-800 transition-colors dark:bg-white/10 dark:hover:bg-white/15 "
                                     aria-label="GitHub Profile"
                                 >
                                     <FaGithub className="h-5 w-5" />

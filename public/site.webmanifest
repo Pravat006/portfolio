@@ -4,9 +4,9 @@
   "description": "Professional portfolio of a frontend web developer specializing in React, Next.js, and Tailwind CSS",
   "icons": [
     {
-      "src": "/vite.svg",
+      "src": "/pravat.png",
       "sizes": "any",
-      "type": "image/svg+xml"
+      "type": "image/png"
     }
   ],
   "theme_color": "#ffffff",

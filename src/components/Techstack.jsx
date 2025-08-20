@@ -1,4 +1,3 @@
-import React from 'react'
 import portfolioData from '@/data/portfolioData.json'
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -11,7 +10,7 @@ function Techstack() {
                 {icons.map((icon) => (
                     <Card
                         key={icon.id}
-                        className="p-4 bg-white/10  border-white/20 hover:bg-white/15 transition-all duration-300 group shadow-xl"
+                        className="p-4 bg-white/10 border border-gray-300 dark:border-gray-700 rounded-xl shadow-[4px_4px_0_#222] hover:shadow-[6px_6px_0_#222] dark:shadow-[4px_4px_0_#a78bfa] dark:hover:shadow-[6px_6px_0_#a78bfa] transition-all duration-300 group"
                     >
                         <CardContent className="p-0 flex flex-col items-center justify-center">
                             <div className="h-10 sm:h-16 w-16 mb-3 relative flex items-center justify-center">

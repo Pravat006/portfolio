@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import portfolioData from '@/data/portfolioData.json';
-import avatar from '@/assets/picofme.png';
+// import avatar from '@/assets/picofme.png';
 
 function Hero() {
     const { hero, personal } = portfolioData;
@@ -23,7 +23,7 @@ function Hero() {
             <div className="relative z-10 max-w-4xl mx-auto px-4">
                 <div className="mb-4">
                     <img
-                        src={avatar}
+                        src="/pravat.png"
                         alt={`${personal.name} - ${personal.title}`}
                         width={120}
                         height={120}

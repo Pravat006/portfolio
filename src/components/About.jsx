@@ -2,7 +2,7 @@ import { Badge } from "./ui/badge.jsx";
 import { Button } from "./ui/button";
 import { FiDownload } from 'react-icons/fi';
 import portfolioData from '@/data/portfolioData.json';
-import avatar from '@/assets/picofme.png';
+// import avatar from '@/assets/picofme.png';
 import ResumePreview from './ResumePreview.jsx';
 
 function About() {
@@ -54,13 +54,13 @@ function About() {
                         </div>
                     </div>
 
-                    {/* Right avatar with glow */}
+
                     <div className="flex justify-center md:justify-end">
                         <div className="relative">
                             <div className="absolute inset-0 -z-10 rounded-full bg-purple-500/20 blur-2xl" />
                             <div className="rounded-full p-1 bg-gradient-to-br from-purple-500/40 to-indigo-500/40">
                                 <img
-                                    src={avatar}
+                                    src="/pravat.png"
                                     alt={`${personal?.name} - ${personal?.title}`}
                                     width={256}
                                     height={256}
